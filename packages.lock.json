@@ -1,0 +1,658 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0-windows10.0.19041": {
+      "ClosedXML": {
+        "type": "Direct",
+        "requested": "[0.105.1, )",
+        "resolved": "0.105.1",
+        "contentHash": "X1ruIP9h2FBEK7jmO0peq3s6/Zqt5ve5a9f9kn6WUjdsUWvGbQlqxuGLz822xuFLlmnSeAfWFTGeX/tZlmAt+g==",
+        "dependencies": {
+          "ClosedXML.Parser": "2.0.0",
+          "DocumentFormat.OpenXml": "[3.1.1, 4.0.0)",
+          "ExcelNumberFormat": "1.1.0",
+          "RBush.Signed": "4.0.0",
+          "SixLabors.Fonts": "[1.0.0, 3.0.0)"
+        }
+      },
+      "CsvHelper": {
+        "type": "Direct",
+        "requested": "[33.1.0, )",
+        "resolved": "33.1.0",
+        "contentHash": "kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg=="
+      },
+      "ExcelDataReader": {
+        "type": "Direct",
+        "requested": "[3.9.0, )",
+        "resolved": "3.9.0",
+        "contentHash": "3lEkUzG67UWPYj/xlX5Hua3MeQQktnK0B7WGzDjLpdJpBtct7szX0E4WB3Kl6C/8bNnbkyT2eO0FSPV+9CCemw=="
+      },
+      "LiveChartsCore.SkiaSharpView.WPF": {
+        "type": "Direct",
+        "requested": "[2.0.5, )",
+        "resolved": "2.0.5",
+        "contentHash": "CffAGQ6VjBAfmrLJ0/dUGNR9hZDhEfw4Z9JSTUVjc+vRQBYI+i/AmJuN2BMGI1pDI2n9y1cLSk5vAnuuF8V/qw==",
+        "dependencies": {
+          "LiveChartsCore.SkiaSharpView": "2.0.5",
+          "SkiaSharp.HarfBuzz": "3.119.0",
+          "SkiaSharp.Views.WPF": "3.119.0"
+        }
+      },
+      "Microsoft.Agents.AI.OpenAI": {
+        "type": "Direct",
+        "requested": "[1.28.0, )",
+        "resolved": "1.28.0",
+        "contentHash": "XkcsKTJW2dI4lmNaRHptiouXK/mFwN9zxVG1zi57kBM6Boq8YtIKeAP5hy+Tuw3ua+70HkOEbewO/gRpAyrvzA==",
+        "dependencies": {
+          "Microsoft.Agents.AI": "1.28.0",
+          "Microsoft.Extensions.AI": "10.11.0",
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0",
+          "Microsoft.Extensions.AI.Evaluation": "10.11.0",
+          "Microsoft.Extensions.AI.OpenAI": "10.11.0",
+          "Microsoft.Extensions.Compliance.Abstractions": "10.10.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13",
+          "Microsoft.Extensions.FileSystemGlobbing": "10.0.12",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.13",
+          "Microsoft.Extensions.VectorData.Abstractions": "10.10.0",
+          "Microsoft.ML.Tokenizers": "2.0.0",
+          "OpenAI": "2.14.0",
+          "System.ClientModel": "1.16.0",
+          "System.Diagnostics.DiagnosticSource": "10.0.13",
+          "System.Net.ServerSentEvents": "10.0.13",
+          "System.Text.Json": "10.0.13",
+          "System.Threading.Channels": "10.0.13"
+        }
+      },
+      "Microsoft.Data.Sqlite": {
+        "type": "Direct",
+        "requested": "[8.0.22, )",
+        "resolved": "8.0.22",
+        "contentHash": "vPqCMcGbioWfehIZvyh68Jy1jRPXFQ89ZlAnrquYm+yrH891SHPdqWCDeA8h70pWN/L78eK/Ze7un9TPI6EsZA==",
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "8.0.22",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.6"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection": {
+        "type": "Direct",
+        "requested": "[10.0.0, )",
+        "resolved": "10.0.0",
+        "contentHash": "f0RBabswJq+gRu5a+hWIobrLWiUYPKMhCD9WO3sYBAdSy3FFH14LMvLVFZc2kPSCimBLxSuitUhsd6tb0TAY6A==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0"
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks": {
+        "type": "Direct",
+        "requested": "[8.0.34, )",
+        "resolved": "8.0.34",
+        "contentHash": "AoMGwI/388svzARQ2NYC25vFOQGcf13FgQWv61TwPAdPUMOejXpQxBQHrQpXfqM7vqxxj1E3SAkX/OkE2cuChw=="
+      },
+      "Serilog.Sinks.File": {
+        "type": "Direct",
+        "requested": "[7.0.0, )",
+        "resolved": "7.0.0",
+        "contentHash": "fKL7mXv7qaiNBUC71ssvn/dU0k9t0o45+qm2XgKAlSt19xF+ijjxyA3R6HmCgfKEKwfcfkwWjayuQtRueZFkYw==",
+        "dependencies": {
+          "Serilog": "4.2.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData": {
+        "type": "Direct",
+        "requested": "[8.0.0, )",
+        "resolved": "8.0.0",
+        "contentHash": "+TUFINV2q2ifyXauQXRwy4CiBhqvDEDZeVJU7qfxya4aRYOKzVBpN+4acx25VcPB9ywUN6C0n8drWl110PhZEg=="
+      },
+      "WPF-UI": {
+        "type": "Direct",
+        "requested": "[4.3.0, )",
+        "resolved": "4.3.0",
+        "contentHash": "SIHhc8lIrhEQ/1cLFZN6Dtf8cqsLm4myBULj9obnacd9TyDs2vizhKYzRzTlcPEcnzb3L4EstvPN3M6kcXbJCA==",
+        "dependencies": {
+          "WPF-UI.Abstractions": "4.3.0"
+        }
+      },
+      "ClosedXML.Parser": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "ngTqjYreDYNytG1W5d3ewHsw0ukmmrgV7EKnS4/40rXoYZGt07jrBvo+N+GxT49rcageUMUiprV0jYT4nwVBHQ=="
+      },
+      "DocumentFormat.OpenXml": {
+        "type": "Transitive",
+        "resolved": "3.1.1",
+        "contentHash": "2z9QBzeTLNNKWM9SaOSDMegfQk/7hDuElOsmF77pKZMkFRP/GHA/W/4yOAQD9kn15N/FsFxHn3QVYkatuZghiA==",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.1.1"
+        }
+      },
+      "DocumentFormat.OpenXml.Framework": {
+        "type": "Transitive",
+        "resolved": "3.1.1",
+        "contentHash": "6APEp/ElZV58S/4v8mf4Ke3ONEDORs64MqdD64Z7wWpcHANB9oovQsGIwtqjnKihulOj7T0a6IxHIHOfMqKOng==",
+        "dependencies": {
+          "System.IO.Packaging": "8.0.1"
+        }
+      },
+      "ExcelNumberFormat": {
+        "type": "Transitive",
+        "resolved": "1.1.0",
+        "contentHash": "R3BVHPs9O+RkExbZYTGT0+9HLbi8ZrNij1Yziyw6znd3J7P3uoIR07uwTLGOogtz1p6+0sna66eBoXu7tBiVQA=="
+      },
+      "Google.Protobuf": {
+        "type": "Transitive",
+        "resolved": "3.30.2",
+        "contentHash": "Y2aOVLIt75yeeEWigg9V9YnjsEm53sADtLGq0gLhwaXpk3iu8tYSoauolyhenagA2sWno2TQ2WujI0HQd6s1Vw=="
+      },
+      "HarfBuzzSharp": {
+        "type": "Transitive",
+        "resolved": "8.3.1.1",
+        "contentHash": "tLZN66oe/uiRPTZfrCU4i8ScVGwqHNh5MHrXj0yVf4l7Mz0FhTGnQ71RGySROTmdognAs0JtluHkL41pIabWuQ==",
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.1.1"
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "8.3.1.1",
+        "contentHash": "UsJtQsfAJoFDZrXc4hCUfRPMqccfKZ0iumJ/upcUjz/cmsTgVFGNEL5yaJWmkqsuFYdMWbj/En5/kS4PFl9hBA=="
+      },
+      "LiveChartsCore": {
+        "type": "Transitive",
+        "resolved": "2.0.5",
+        "contentHash": "cbGiOyGxO+fsWLvrQ4R6Rd8QHfkRGyhxyD6nBSk8/ZwKKtU+vWSqlC4ESgwKSUbrzvK8ooU/yfFJpjHXzPd+vA=="
+      },
+      "LiveChartsCore.SkiaSharpView": {
+        "type": "Transitive",
+        "resolved": "2.0.5",
+        "contentHash": "YgRhisuVev2RocHqq7d9juSBGBlMLKYQA5ijEuD/sWeV39dCBInBK4RSfqBYTuNNWs5Fe+NA+F0TCIWJ2t1Cew==",
+        "dependencies": {
+          "LiveChartsCore": "2.0.5",
+          "SkiaSharp": "2.88.9",
+          "SkiaSharp.HarfBuzz": "2.88.9"
+        }
+      },
+      "Microsoft.Agents.AI": {
+        "type": "Transitive",
+        "resolved": "1.28.0",
+        "contentHash": "PyT62X25Exr12ELJakcQZSIJdaBTouyPzXbDwcCWHpK/sjMxV4sJDnBqjz6xYxfYifO16cAXC93FHVKb+mk1gg==",
+        "dependencies": {
+          "Microsoft.Agents.AI.Abstractions": "1.28.0",
+          "Microsoft.Extensions.AI": "10.11.0",
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0",
+          "Microsoft.Extensions.AI.Evaluation": "10.11.0",
+          "Microsoft.Extensions.Compliance.Abstractions": "10.10.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13",
+          "Microsoft.Extensions.FileSystemGlobbing": "10.0.12",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.13",
+          "Microsoft.Extensions.VectorData.Abstractions": "10.10.0",
+          "Microsoft.ML.Tokenizers": "2.0.0",
+          "System.Diagnostics.DiagnosticSource": "10.0.13",
+          "System.Text.Json": "10.0.13",
+          "System.Threading.Channels": "10.0.13"
+        }
+      },
+      "Microsoft.Agents.AI.Abstractions": {
+        "type": "Transitive",
+        "resolved": "1.28.0",
+        "contentHash": "f0pcDqs9JUHffTMjdsktAF+pa7On+q3w8MoyuWzl8mYTT+U+tMuP5N2qvQtyfC3N2SvVWkdkdZNqnRdonySkjg==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0",
+          "System.Text.Json": "10.0.13"
+        }
+      },
+      "Microsoft.Data.Sqlite.Core": {
+        "type": "Transitive",
+        "resolved": "8.0.22",
+        "contentHash": "x09ObAhKeabVMKRi3/jU0HvIcm0T/RxjSdqGmwbTeya/Iev+aPIB69atBuR+kfbZ9P+EspBSAQ0kQ5Qc/REsXQ==",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.6"
+        }
+      },
+      "Microsoft.Extensions.AI": {
+        "type": "Transitive",
+        "resolved": "10.11.0",
+        "contentHash": "PtgeWqaC3gQ8/saMgkUiwKeqCBPfDOcjfqDLcXtwJI//pu79gYZqUMPOh7/bFdFWcJihP/rWq9sgQd2xQtEP0A==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0",
+          "Microsoft.Extensions.Caching.Abstractions": "10.0.13",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.13",
+          "System.Diagnostics.DiagnosticSource": "10.0.13",
+          "System.Numerics.Tensors": "10.0.13",
+          "System.Text.Json": "10.0.13",
+          "System.Threading.Channels": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.11.0",
+        "contentHash": "h4DX/TdJU4fk1GGaf19n6Kujkj6VXbGeL4UEOsQ8+ZJC5fVApPauokCtvBP684BYbczUYZQNfo1mbmyHG4WVSg==",
+        "dependencies": {
+          "System.Text.Json": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.AI.Evaluation": {
+        "type": "Transitive",
+        "resolved": "10.11.0",
+        "contentHash": "bCGBQzk+8HtfwKx8prJUloncDonqNWBIijhoieArgSg0WzJAgGNoDhG1f698mvEdNd7DFoZEoSjZz7PKxB8Evg==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0"
+        }
+      },
+      "Microsoft.Extensions.AI.OpenAI": {
+        "type": "Transitive",
+        "resolved": "10.11.0",
+        "contentHash": "p8fJdcPOrwaUPRrag5dY9SLohaouutY+bqg1Lw+8OOEFqMXvCHGNWQXv2GcUUNPBCkTR4mcBEHoP9LAV2RtxzA==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.11.0",
+          "OpenAI": "2.14.0",
+          "System.Text.Json": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "UOJqcdNMoFcV/5RUcOlVKq9pPmbrcmbpLx5iYz9QtrmMcWRQzlL5Q/NZRfbPPLNyIEc1HWjjs5Z7nIwqewU1sg==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.Compliance.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.10.0",
+        "contentHash": "Sh3ujDRJpCMNY4x+43ljCROt4qBOoWfsL8l816RPYZS1S+Tw277r5002rbB15Sh6hFcCT8mGYBO7NtpfSYrQ0Q==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.ObjectPool": "8.0.31"
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "5Vnd2I75DmZCVEjSynIdJ/0EGafgnLQwgR3t2C2/fkjx/nRG+cLwxLLdInoHeCEpkD5K4Ov/g9ZCRYrl4TRsaA==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.10"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "G2GrGWNAPZBsii2F6AU8n+JT2tC1/I0Ml/e9ZyNCgPjf3hZqronP7o0X91aAynCmVeae8KkSIUNXXeXCNRmdVQ=="
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "9uWiKpeOVac355STyChWR/pliFX/5CeLqChW9kKsaxyDH4EUTZxMkT4Jwp/J/peLm0GBFmSX5c0WCse3yCnq1Q==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Options": "10.0.10",
+          "System.Diagnostics.DiagnosticSource": "10.0.10"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "c5zqFCY9DiIpMovLd7/d/CTiEtrMOuQ639dhv3PABtKQIKNQikSHwQt8+N679uii9q+B55lgK28Uv64FOwEu8w==",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.10"
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing": {
+        "type": "Transitive",
+        "resolved": "10.0.12",
+        "contentHash": "45cV+UeI0chPAIXrx9Wv7K4PJXuuIR2pnOur5MOAo6kOFclBHSLLDrvGAxMfWRMtUvpv/kQZkxlgaUN56jwzSQ=="
+      },
+      "Microsoft.Extensions.Hosting.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "5LugpYGHk+mkn0a8IZgcyfBca8PCTAU9RQFoMrTdtOOidq88M2SI5f3px6ugnzgxC+eTkvYYJi8pzlUnG5xdAQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.10",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "10.0.10",
+          "Microsoft.Extensions.FileProviders.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.10"
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "aSZEhEig4fvNiw2zs8Z6NyDlniKtq6YjcF3DyHuqTEHcZ2VKA/6itMPZ+dW+yWABWExlDcQwwdbqX1Rcb7W8WQ==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.13",
+          "System.Diagnostics.DiagnosticSource": "10.0.13"
+        }
+      },
+      "Microsoft.Extensions.ObjectPool": {
+        "type": "Transitive",
+        "resolved": "8.0.31",
+        "contentHash": "ELrhLhlbMjp2CYmYbswFy3b0dybqOqMXJlKA+hNRnbdsO5E1yZG9k+nAjD6UkA4MCPkk2d4ME54nK7gSmuOYKg=="
+      },
+      "Microsoft.Extensions.Options": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "srnhnk7nE8krBiIXp71LvBmKBtraBONWSRzdjJgRv1Ko9Mp8IVNqv4vIS9hGeVteBig8aQkva9ZG+sC+o5sVcA==",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Primitives": "10.0.10"
+        }
+      },
+      "Microsoft.Extensions.Primitives": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "ZjTwxzhiw2TMEzIbUDkMF0dfDB2I4NQgIfKD0ELu9/5Mk+SRGdKZcD0/lvBrRCAPo6KN2r0BW86MRancoyJkoA=="
+      },
+      "Microsoft.Extensions.VectorData.Abstractions": {
+        "type": "Transitive",
+        "resolved": "10.10.0",
+        "contentHash": "bZdR7QbdLLqmc9xPJIiD5U6H678xyv8eMATjQ0SmH7OZyi+/12G/nFAGCE6DNG22q76YNwkXo+V7GMyUckjjgw==",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.10.0"
+        }
+      },
+      "Microsoft.ML.Tokenizers": {
+        "type": "Transitive",
+        "resolved": "2.0.0",
+        "contentHash": "+b8lT4cLLO/sBR2hjvE/qG6qrZG15h7/PBvnIrzTh4xDaAxdHUY6449rC+1pHzQUsBiCHZVbj+VMn+xS0sL7TA==",
+        "dependencies": {
+          "Google.Protobuf": "3.30.2"
+        }
+      },
+      "OpenAI": {
+        "type": "Transitive",
+        "resolved": "2.14.0",
+        "contentHash": "AeyC3GxbrJ7KRoWDyFeNSUOQQWD9AnNvM7LYQijCcXcqjyr53aGRcf5GBLExcSBzIs0RWYHe+NbzPrHTeuU5zA==",
+        "dependencies": {
+          "System.ClientModel": "1.15.0",
+          "System.Diagnostics.DiagnosticSource": "10.0.11",
+          "System.Net.ServerSentEvents": "10.0.11"
+        }
+      },
+      "OpenTK": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "w2oiuLDpZbSCyqzHEFFLTO6JMNadHWS6Pp68U68lfzdTrzTQQqyH7x+/PJidsk+wRSDopaH9e03/KzYB9Fs+7Q==",
+        "dependencies": {
+          "OpenTK.Compute": "4.3.0",
+          "OpenTK.Core": "4.3.0",
+          "OpenTK.Graphics": "4.3.0",
+          "OpenTK.Input": "4.3.0",
+          "OpenTK.Mathematics": "4.3.0",
+          "OpenTK.OpenAL": "4.3.0",
+          "OpenTK.Windowing.Common": "4.3.0",
+          "OpenTK.Windowing.Desktop": "4.3.0",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.3.0"
+        }
+      },
+      "OpenTK.Compute": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "XrMVjBPp1PNuz7z7hdNyO2oBsAPZHcHzILs7ewtEP09CM1KPVwZDAsIjOjEJesLCWrNr+jm6+3TvHActYkk4lQ=="
+      },
+      "OpenTK.Core": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "Hu+4U+tvnQW++y8Gj4OggLVuhclLm1hVN9ZIc3e9d8uo15CWYOSycw+FQhaRH3aibFv1vFYgH+bMIHM509YwYg=="
+      },
+      "OpenTK.GLWpfControl": {
+        "type": "Transitive",
+        "resolved": "4.2.3",
+        "contentHash": "VIq15MqeMB42v7cuoPcbHAFzdlOcN5DZEhguuQVdvZP0NlfajjaoVDqtP3koOWLs1how2YqCaVk1qIvsuRdQqQ==",
+        "dependencies": {
+          "OpenTK": "[4.3.0, 5.0.0)"
+        }
+      },
+      "OpenTK.Graphics": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "N1XXKrX+op6ORxkRoLa8mb/rMQVTW4YsJraneyU0RKqZ04PeOwcnX6BFb+mJISZnbtk+3SyYlWLjSsQjDdFbRg==",
+        "dependencies": {
+          "OpenTK.Core": "[4.3.0, 4.4.0)",
+          "OpenTK.Mathematics": "[4.3.0, 4.4.0)"
+        }
+      },
+      "OpenTK.Input": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "tvTQlC87bnNWN5BPOxCqSE2UJ6RKz/r342I25XBfeF/TNpw9Ad6upLdok8l8Nhess9LUItOPT6uBBdOlMEO0cA=="
+      },
+      "OpenTK.Mathematics": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "3yiHBaEeV6OVu7La6961Jx7xoP7dJoZXcRJaDqqPrEmmIuwUx2i4AQI60UpGmcrMJ11QhicmW6zjb8aZYySYrw=="
+      },
+      "OpenTK.OpenAL": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "zDzP8wsppS/5jwW8RUaac/bWOrZV5rB8Faejy5vLVE1ixWKclOEyO30ADOO3XZ+IWNKioX5wMhzKcy8kfsKKew==",
+        "dependencies": {
+          "OpenTK.Core": "[4.3.0, 4.4.0)",
+          "OpenTK.Mathematics": "[4.3.0, 4.4.0)"
+        }
+      },
+      "OpenTK.redist.glfw": {
+        "type": "Transitive",
+        "resolved": "3.3.0-pre20200830200122",
+        "contentHash": "EKE9pJCFHScbqOv/t0zG1h5Eh24nWr44SXYnpYtAWDhJhzAoUoI8TwDRXGvTGhDeCBp8ONEaVsq9xRC+OQIxQA=="
+      },
+      "OpenTK.Windowing.Common": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "HKKMHsv+eQrB3C3ySCcYS0yfKNZ/SM0v1upqBLEN5khs7IVPQ/wRwdR+OaPH/9v11pYtdNQL/XtkPVV0SC8jWA==",
+        "dependencies": {
+          "OpenTK.Core": "[4.3.0, 4.4.0)",
+          "OpenTK.Mathematics": "[4.3.0, 4.4.0)"
+        }
+      },
+      "OpenTK.Windowing.Desktop": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "pomhIDKQGGLn+5jAWCUsxAcHLOwO4/43pmcXA2xVKRcrvRQgY0QCUcroQRDwGam+8SinRBSTa0PNVNbDxZhoRA==",
+        "dependencies": {
+          "OpenTK.Core": "[4.3.0, 4.4.0)",
+          "OpenTK.Mathematics": "[4.3.0, 4.4.0)",
+          "OpenTK.Windowing.Common": "[4.3.0, 4.4.0)",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "[4.3.0, 4.4.0)"
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "R8H4ynmYUYuow/QNx4pnvPGR8Z6KUP54rVlnsH5tRkDYBU/m6bWmvFFvAA492rRyM5nt+6zAqGjv8GXY+8sylA==",
+        "dependencies": {
+          "OpenTK.Core": "[4.3.0, 4.4.0)",
+          "OpenTK.redist.glfw": "[3.3.0-pre20200830200122, 3.4.0-pre)"
+        }
+      },
+      "RBush.Signed": {
+        "type": "Transitive",
+        "resolved": "4.0.0",
+        "contentHash": "aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w=="
+      },
+      "Serilog": {
+        "type": "Transitive",
+        "resolved": "4.2.0",
+        "contentHash": "gmoWVOvKgbME8TYR+gwMf7osROiWAURterc6Rt2dQyX7wtjZYpqFiA/pY6ztjGQKKV62GGCyOcmtP1UKMHgSmA=="
+      },
+      "SixLabors.Fonts": {
+        "type": "Transitive",
+        "resolved": "1.0.0",
+        "contentHash": "LFQsCZlV0xlUyXAOMUo5kkSl+8zAQXXbbdwWchtk0B4o7zotZhQsQOcJUELGHdfPfm/xDAsz6hONAuV25bJaAg=="
+      },
+      "SkiaSharp": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "gR9yVoOta2Mc1Rxt15LD65AckfHMfwjIs/3kkD59C9bT2nYYISsE6uz3t4aMPNHA6CgsIL0Ssn+jE5OVilZ1yw==",
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.0"
+        }
+      },
+      "SkiaSharp.HarfBuzz": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "5ocGzl+RYEZFnUPUbModshnEFvKTku4hTtOBsLvy5MCK2KAHjq5Nw2+uAVUx79Rjh0z8fTojT6ZVav8MJgW0ug==",
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1",
+          "SkiaSharp": "3.119.0"
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "IwC9yx36lOdXVT2DjgmWHl1qkVspfj8ctd4+li8CNnvqdfaTolXCOh6TLznURcPAvzatx9K/tLOB7zT6T8EA9w=="
+      },
+      "SkiaSharp.Views.Desktop.Common": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "KST7Q3n+X5BhDj1aKTJXk9tITWWznveka9n+pBjOtE53Omc+wlZR0s4fQStybWCVVaWG9eaeOMaw93J3zEMklA==",
+        "dependencies": {
+          "SkiaSharp": "3.119.0"
+        }
+      },
+      "SkiaSharp.Views.WPF": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "1Dmj9RlBW/gvmJwSUER+N9plA/kcWOgiL5g3q2DB+USVQav8rQtfOZIQZ1Wt/AqhwepOacv1M6pZKDWtXmwDAg==",
+        "dependencies": {
+          "OpenTK": "4.3.0",
+          "OpenTK.GLWpfControl": "4.2.3",
+          "SkiaSharp": "3.119.0",
+          "SkiaSharp.Views.Desktop.Common": "3.119.0"
+        }
+      },
+      "SQLitePCLRaw.bundle_e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.6",
+        "contentHash": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
+        "dependencies": {
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.6"
+        }
+      },
+      "SQLitePCLRaw.core": {
+        "type": "Transitive",
+        "resolved": "2.1.6",
+        "contentHash": "wO6v9GeMx9CUngAet8hbO7xdm+M42p1XeJq47ogyRoYSvNSp0NGLI+MgC0bhrMk9C17MTVFlLiN6ylyExLCc5w==",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.6",
+        "contentHash": "2ObJJLkIUIxRpOUlZNGuD4rICpBnrBR5anjyfUFQep4hMOIeqW+XGQYzrNmHSVz5xSWZ3klSbh7sFR6UyDj68Q=="
+      },
+      "SQLitePCLRaw.provider.e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.6",
+        "contentHash": "PQ2Oq3yepLY4P7ll145P3xtx2bX8xF4PzaKPRpw9jZlKvfe4LE/saAV82inND9usn1XRpmxXk7Lal3MTI+6CNg==",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.1.6"
+        }
+      },
+      "System.ClientModel": {
+        "type": "Transitive",
+        "resolved": "1.16.0",
+        "contentHash": "vLljZON+8lXDUtsPP8uwsPvsBSQaUHhh8NvB+D9TQsXu5n622RLtuLyZAcyIFc98b8ixrwD0AhzUQhtg2NwJnQ==",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.10",
+          "System.Diagnostics.DiagnosticSource": "10.0.10",
+          "System.Memory.Data": "10.0.10",
+          "System.Net.ServerSentEvents": "10.0.10",
+          "System.Text.Json": "10.0.10"
+        }
+      },
+      "System.Diagnostics.DiagnosticSource": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "M2pJpnFHrk43r1ukjr7yxVcoPwjGna7Vzt9731iaZjXdADXXIiW5MmMvR/2t4eoimuwICB2W4kLJjesCTB58FA=="
+      },
+      "System.IO.Packaging": {
+        "type": "Transitive",
+        "resolved": "8.0.1",
+        "contentHash": "KYkIOAvPexQOLDxPO2g0BVoWInnQhPpkFzRqvNrNrMhVT6kqhVr0zEb6KCHlptLFukxnZrjuMVAnxK7pOGUYrw=="
+      },
+      "System.IO.Pipelines": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "KyPO1f2rgg2GK211d0khYeqWtVsV8Veu/3dvl9V+vml9uLVc9AkxfQg7ay3fi0Nfznf6LNltPSe06VefT+hLVA=="
+      },
+      "System.Memory": {
+        "type": "Transitive",
+        "resolved": "4.5.3",
+        "contentHash": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA=="
+      },
+      "System.Memory.Data": {
+        "type": "Transitive",
+        "resolved": "10.0.10",
+        "contentHash": "roR+5AeOpflUxJQlqSfsZs/Bvi1uw4KBuTkIgF1e8l0RdalG4AUn84+sjJLclEfOV85gAjc8+Pp540qjDE5UIg==",
+        "dependencies": {
+          "System.Text.Json": "10.0.10"
+        }
+      },
+      "System.Net.ServerSentEvents": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "qIzBBMElC4Vq4pLFNi9MIbXEH5GwtCkuEn1msb67dPMNEZQnQeXxDjMNw1B0hDM/PnBZsJg5oSBYMwJeJt7htQ=="
+      },
+      "System.Numerics.Tensors": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "E4JC7KcY4j1yx9uy8tVsHlGThnwLdUWtUz6aLHCqbN/jbtwbwbZgnVEF9atUr/7ynFCbo8Rbij056Y9bWM9ALg=="
+      },
+      "System.Text.Encodings.Web": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "rNYrJlPi22TM3PhkWdgB0jPYw/umbURQWlu1kg1nbsu3wP6LHsCBdG7NOG3Jf/8/CaC7WjE7tSH+TiQepPbOVQ=="
+      },
+      "System.Text.Json": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "IjBLCOgNyv48I7G69EWDUalJ0mVHyZdiH1drbPrNsQRJssvjmGVn0Q/CoZSG1RGUCCCgpdiQbZI4i9Z6Q5jnWQ==",
+        "dependencies": {
+          "System.IO.Pipelines": "10.0.13",
+          "System.Text.Encodings.Web": "10.0.13"
+        }
+      },
+      "System.Threading.Channels": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "NireAiBiYcwRwMTzNwC4X1fZ3xit0sW1W8nKyVJBTK9D6ge6lzzCy5T1WNzg01t2qiw2UgqDoF0zmHn0d3W5Rg=="
+      },
+      "WPF-UI.Abstractions": {
+        "type": "Transitive",
+        "resolved": "4.3.0",
+        "contentHash": "7Kj9DmCCo4SOCd1jAiw4+EcMFP2nR8rLLvitAYzVtzbWToTsodkbie24+8x9C4LDLxkopWEUGX62szqqNy7oeg=="
+      }
+    },
+    "net8.0-windows10.0.19041/win-x64": {
+      "HarfBuzzSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "8.3.1.1",
+        "contentHash": "UsJtQsfAJoFDZrXc4hCUfRPMqccfKZ0iumJ/upcUjz/cmsTgVFGNEL5yaJWmkqsuFYdMWbj/En5/kS4PFl9hBA=="
+      },
+      "OpenTK.redist.glfw": {
+        "type": "Transitive",
+        "resolved": "3.3.0-pre20200830200122",
+        "contentHash": "EKE9pJCFHScbqOv/t0zG1h5Eh24nWr44SXYnpYtAWDhJhzAoUoI8TwDRXGvTGhDeCBp8ONEaVsq9xRC+OQIxQA=="
+      },
+      "SkiaSharp.NativeAssets.Win32": {
+        "type": "Transitive",
+        "resolved": "3.119.0",
+        "contentHash": "IwC9yx36lOdXVT2DjgmWHl1qkVspfj8ctd4+li8CNnvqdfaTolXCOh6TLznURcPAvzatx9K/tLOB7zT6T8EA9w=="
+      },
+      "SQLitePCLRaw.lib.e_sqlite3": {
+        "type": "Transitive",
+        "resolved": "2.1.6",
+        "contentHash": "2ObJJLkIUIxRpOUlZNGuD4rICpBnrBR5anjyfUFQep4hMOIeqW+XGQYzrNmHSVz5xSWZ3klSbh7sFR6UyDj68Q=="
+      },
+      "System.Text.Encodings.Web": {
+        "type": "Transitive",
+        "resolved": "10.0.13",
+        "contentHash": "rNYrJlPi22TM3PhkWdgB0jPYw/umbURQWlu1kg1nbsu3wP6LHsCBdG7NOG3Jf/8/CaC7WjE7tSH+TiQepPbOVQ=="
+      }
+    }
+  }
+}

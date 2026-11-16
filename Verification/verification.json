@@ -1,0 +1,166 @@
+{
+  "success": true,
+  "elapsedSeconds": 26.8472024,
+  "results": [
+    {
+      "name": "Supplied sample imports all 1,000 records",
+      "passed": true
+    },
+    {
+      "name": "Supplied sample classified as 700 PASS / 100 REVIEW / 200 REJECT (STOP) / 0 UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "name": "All 56 original columns retained",
+      "passed": true
+    },
+    {
+      "name": "Missing source IDs flagged without fabricated candidate IDs",
+      "passed": true
+    },
+    {
+      "name": "All 50 sample screening columns recognized; six personal fields excluded",
+      "passed": true
+    },
+    {
+      "name": "All-Pass is case-insensitive and trimmed; personal fields do not influence classification",
+      "passed": true
+    },
+    {
+      "name": "STOP / Hard Stop / Reject dominate REVIEW and PASS",
+      "passed": true
+    },
+    {
+      "name": "Explicit Review dominates Pass",
+      "passed": true
+    },
+    {
+      "name": "Blank, unknown and unresolved-reference checks cannot silently pass",
+      "passed": true
+    },
+    {
+      "name": "No substring-based false STOP or false PASS",
+      "passed": true
+    },
+    {
+      "name": "No screening columns remains unclassified",
+      "passed": true
+    },
+    {
+      "name": "Sample PASS export has exact full-category rows and computed classification",
+      "passed": true
+    },
+    {
+      "name": "Sample REVIEW export has exact full-category rows and computed classification",
+      "passed": true
+    },
+    {
+      "name": "Sample STOP export has exact full-category rows and computed classification",
+      "passed": true
+    },
+    {
+      "name": "PASS classification traces to all 50 source check values",
+      "passed": true
+    },
+    {
+      "name": "Legacy imported sample automatically reclassified without re-upload",
+      "passed": true
+    },
+    {
+      "name": "Migration is idempotent; original source values and rows unchanged",
+      "passed": true
+    },
+    {
+      "name": "Final column automatically mapped as authoritative overall result",
+      "passed": true
+    },
+    {
+      "name": "Latest Final column preserved: 700 PASS / 129 REVIEW / 171 STOP",
+      "passed": true
+    },
+    {
+      "name": "29 Final REVIEW vs explicit Hard Stop discrepancies flagged without overwriting Final",
+      "passed": true
+    },
+    {
+      "name": "All fixture rows retained",
+      "passed": true
+    },
+    {
+      "name": "Trimmed case-insensitive classification and unknown-status handling",
+      "passed": true
+    },
+    {
+      "name": "Both duplicate ID rows retained and flagged",
+      "passed": true
+    },
+    {
+      "name": "Explicit PASS/pending contradiction flagged",
+      "passed": true
+    },
+    {
+      "name": "Combined filters produce exact counts",
+      "passed": true
+    },
+    {
+      "name": "Search SQL injection text treated literally",
+      "passed": true
+    },
+    {
+      "name": "Database pagination",
+      "passed": true
+    },
+    {
+      "name": "XLSX export count equals full filtered result",
+      "passed": true
+    },
+    {
+      "name": "Formula injection escaped in XLSX",
+      "passed": true
+    },
+    {
+      "name": "CSV formula injection escaped",
+      "passed": true
+    },
+    {
+      "name": "Cancelled import rolls back atomically",
+      "passed": true
+    },
+    {
+      "name": "Export restriction enforced in service layer",
+      "passed": true
+    },
+    {
+      "name": "API key Windows encryption roundtrip",
+      "passed": true
+    },
+    {
+      "name": "Exact source-column and text filter",
+      "passed": true
+    },
+    {
+      "name": "Agent Framework provider-to-tool-to-response integration with local protocol fixture",
+      "passed": true
+    },
+    {
+      "name": "10,000-row synthetic demo has exact 7500/2000/500 source counts",
+      "passed": true
+    },
+    {
+      "name": "100,000-record streaming import and aggregation",
+      "passed": true
+    },
+    {
+      "name": "Last page of 20,000 REVIEW records",
+      "passed": true
+    },
+    {
+      "name": "Large filtered export includes all pages",
+      "passed": true
+    },
+    {
+      "name": "100k import/query/export timing",
+      "seconds": 12.6803539
+    }
+  ]
+}
